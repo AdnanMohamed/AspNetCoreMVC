@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Adnan.Bookstore/.vs/Adnan.Bookstore/v16
+/Adnan.Bookstore/Adnan.Bookstore/obj
+/Adnan.Bookstore/Adnan.Bookstore/bin/Debug/netcoreapp3.1
