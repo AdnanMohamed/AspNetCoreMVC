@@ -27,15 +27,13 @@ namespace Adnan.Bookstore
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();  // enables using contents inside wwwroot/
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
-                //endpoints.MapGet("/", async context =>
-                //{
-                //    await context.Response.WriteAsync("Hello World!");
-                //});
             });
         }
     }
